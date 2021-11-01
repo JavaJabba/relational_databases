@@ -55,8 +55,10 @@ WHERE population >100000000
 GROUP BY region;
 
 --12
--- SELECT DISTINCT(name)
--- FROM countries
--- GROUP BY 
--- ORDER BY name ASC;
+SELECT DISTINCT(name)
+FROM countries 
+ORDER BY name ASC;
+
+--13
+
 
